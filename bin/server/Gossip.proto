@@ -1,0 +1,9 @@
+option java_outer_classname = "GossipProto";
+
+message hearGossipRequest {
+  optional int32 rpid = 1;
+  optional int32 pid = 2;
+  optional int32 noprocesses = 3;
+  optional int32 clock = 4;
+  optional string message = 5;
+}
